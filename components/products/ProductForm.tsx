@@ -58,7 +58,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ initialData }) => {
             setLoading(false);
         } catch (err) {
             console.log("[collections_GET]", err);
-            toast.error("Something went wrong! Please try again.");
+            toast.error("¡Algo salió mal! Por favor inténtalo de nuevo.");
         }
     };
 
@@ -117,7 +117,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ initialData }) => {
             }
         } catch (err) {
             console.log("[products_POST]", err);
-            toast.error("Something went wrong! Please try again.");
+            toast.error("¡Algo salió mal! Por favor inténtalo de nuevo.");
         }
     };
 

@@ -72,7 +72,7 @@ const CollectionForm: React.FC<CollectionFormProps> = ({ initialData }) => {
       }
     } catch (err) {
       console.log("[collections_POST]", err);
-      toast.error("Something went wrong! Please try again.");
+      toast.error("¡Algo salió mal! Por favor inténtalo de nuevo.");
     }
   };
 
