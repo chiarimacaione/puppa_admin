@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 
-import Loader from "c:/Users/chiar/OneDrive/Escritorio/puppa_admin/components/custom ui/Loader"
+import Loader from "@/components/custom ui/Loader"
 import CollectionForm from "@/components/collections/CollectionForm"
 
 const CollectionDetails = ({ params }: { params: { collectionId: string } }) => {
